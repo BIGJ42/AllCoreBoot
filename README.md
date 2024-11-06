@@ -27,10 +27,11 @@ AllCoreBoot is a simplified OpenCore project aimed at making the process of boot
 3. Choose the correct configuration for your system (x32, x64, Laptop, Desktop etc).
 3. Format the USB Drive to device defaults.
 4. Drag the EFI Folder to the USB.
-5. Choose the version of Mac os to install (Sonoma Coming soon.)
+5. Choose the version of Mac os to install (Full Sequioa support coming soon.)
 6. Open the folder of the MacOS version of choice and drag the com.apple.recovery.boot folder to the usb.
 7. Boot and install Mac OS.
 
-Note: In the folder "Kexts" there are some kexts such as Airportitlwm WHICH YOU MUST change to the one corresponding with the MacOS version you have chosen.
-
-This bootloader was Built from an example opencore bootloader.
+Notes:
+- In the folder "Kexts" there are some kexts such as Airportitlwm WHICH YOU MUST change to the one corresponding with the MacOS version you have chosen
+- Reset NVRAM one time
+- If you have only IGPU use -igfxvesa bootarg for easy installation
